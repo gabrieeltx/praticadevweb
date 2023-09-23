@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: aqua;
+}
+#logo {
+    text-align: center;
+    
+}
+
+#login {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: -65px;
+    
+}
+
+#login ul li {
+    font-size: 14px;
+    list-style: none;
+    width: 150px;
+    margin-right: 20px;
+    display: inline;
+    text-align: right;
+    color: aliceblue;
+    height: 40px;
+    padding: 9px;
+    border-radius: 5px;
+    background-color:rgb(165, 21, 21);
+}
+#login ul li:hover {
+    background-color: rgba(165, 21, 21, 0.911);
+
+}
+#login ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#login ul li a:hover {
+    color:rgba(255, 255, 255, 0.377);
+}
+
+.navbar {
+    background-color: aliceblue;
+    color: rgb(194, 12, 12);
+    margin-top: 60px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex; /*cria layout onde os elementos dentro de um contêiner se ajustam automaticamente ao tamanho do contêiner e às mudanças no tamanho da tela.*/
+    list-style: none;
+    max-width: auto;
+    justify-content: center; /* deixa o conteudo do conteiner centralizado*/
+}
+.navbar li {
+    text-align: center;
+    padding: 17px;
+    position:relative; /*é usada para controlar o posicionamento de um elemento em relação à sua posição normal na página. Ela permite que você ajuste o posicionamento de um elemento em relação a si mesmo ou em relação a outros elementos no documento HTML.*/
+    
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(194, 12, 12);
+}
+.navbar li:hover {
+    background-color: rgba(0, 0, 0, 0.377);
+    
+}
+
+.submenuReceitas {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top:2px solid rgb(165, 21, 21);
+}
+.submenuReceitas li {
+    text-align: left;
+    width: 120px;
+    border-bottom-left-radius: 10px;
+}
+.navbar li:hover .submenuReceitas{
+    display: block;
+    
+}
