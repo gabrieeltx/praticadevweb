@@ -52,6 +52,7 @@ body {
     list-style: none;
     max-width: auto;
     justify-content: center; /* deixa o conteudo do conteiner centralizado*/
+    flex-wrap: wrap; /*permite que o conteudo quebre para a proxima linha*/
 }
 .navbar li {
     text-align: center;
@@ -88,4 +89,13 @@ body {
 .navbar li:hover .submenuReceitas{
     display: block;
     
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: gray;
+    }
+    #logo {
+        text-align: left;
+    }
 }
