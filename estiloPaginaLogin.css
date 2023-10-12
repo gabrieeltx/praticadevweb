@@ -1,0 +1,47 @@
+.formLogin {
+    color: black;
+}
+#email, #senha {
+    border-radius: 5px;
+    border: solid 1px black;
+    margin: 2px;
+}
+
+#email, #senha:hover {
+    color: rgba(240, 248, 255, 0.726);
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#entrar {
+    border:hidden;
+    background-color: aqua;
+    color:black;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#entrar:hover {
+    background-color:rgba(0, 255, 255, 0.596) ;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+#cadastro {
+    font: 12px Arial;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.596);
+}
+
+a:visited {
+    color: rgba(0, 0, 255, 0.884);
+}
